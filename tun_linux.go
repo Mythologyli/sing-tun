@@ -172,7 +172,7 @@ func (t *NativeTun) configure(tunLink netlink.Link) error {
 		return err
 	}
 
-	//t.setSearchDomainForSystemdResolved()
+	t.setSearchDomainForSystemdResolved()
 
 	if t.options.AutoRoute && runtime.GOOS == "android" {
 		t.interfaceCallback = t.options.InterfaceMonitor.RegisterCallback(t.routeUpdate)
