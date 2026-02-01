@@ -1,4 +1,4 @@
-module github.com/cxz66666/sing-tun
+module github.com/mythologyli/sing-tun
 
 go 1.18
 

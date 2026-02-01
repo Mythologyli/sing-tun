@@ -4,7 +4,7 @@ import (
 	"net/netip"
 	"sync"
 
-	"github.com/cxz66666/sing-tun/internal/winipcfg"
+	"github.com/mythologyli/sing-tun/internal/winipcfg"
 	E "github.com/sagernet/sing/common/exceptions"
 	"github.com/sagernet/sing/common/logger"
 	"github.com/sagernet/sing/common/x/list"

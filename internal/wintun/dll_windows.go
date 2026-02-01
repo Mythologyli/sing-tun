@@ -11,7 +11,7 @@ import (
 	"sync/atomic"
 	"unsafe"
 
-	"github.com/cxz66666/sing-tun/internal/wintun/memmod"
+	"github.com/mythologyli/sing-tun/internal/wintun/memmod"
 
 	"golang.org/x/sys/windows"
 )
